@@ -1,0 +1,21 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+
+
+@import './helpers/fonts.scss';
+@import './helpers/variables.scss';
+@import './helpers/placeholders.scss';
+@import './helpers/mixin.scss';
+@import './helpers/base.scss';
+
+@import './sections/header.scss';
+@import './sections/why-it.scss';
+@import './sections/course.scss';
+@import './sections/test.scss';
+@import './sections/components.scss';
+@import './sections/teachers.scss';
+@import './sections/certificate.scss';
+@import './sections/feedback.scss';
+@import './sections/footer.scss';
