@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 900;
     src: local("Helvetica Neue"), local("Helvetica Neue"),
-    url("/src/fonts/HelveticaNeueCyr-Black.woff") format("woff"),
-    url("/src/fonts/HelveticaNeueCyr-Black.woff2") format("woff2");
+    url("..//fonts/HelveticaNeueCyr-Black.woff") format("woff"),
+    url("..//fonts/HelveticaNeueCyr-Black.woff2") format("woff2");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
     font-style: normal;
     font-weight: 700;
     src: local("Helvetica Neue"), local("Helvetica Neue"),
-    url("/src/fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
-    url("/src/fonts/HelveticaNeueCyr-Black.woff2") format("woff2");
+    url("..//fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("..//fonts/HelveticaNeueCyr-Black.woff2") format("woff2");
 }
 
 @font-face {
@@ -21,8 +21,8 @@
     font-style: normal;
     font-weight: 500;
     src: local("Helvetica Neue"), local("Helvetica Neue"),
-    url("/src/fonts/HelveticaNeueCyr-Medium.woff") format("woff"),
-    url("/src/fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
+    url("..//fonts/HelveticaNeueCyr-Medium.woff") format("woff"),
+    url("..//fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -30,8 +30,8 @@
     font-style: normal;
     font-weight: 400;
     src: local("Helvetica Neue"), local("Helvetica Neue"),
-    url("/src/fonts/HelveticaNeueCyr-Roman.woff") format("woff"),
-    url("/src/fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
+    url("..//fonts/HelveticaNeueCyr-Roman.woff") format("woff"),
+    url("..//fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
 }
 
 @font-face {
@@ -39,8 +39,8 @@
     font-style: normal;
     font-weight: 400;
     src: local("Marck Script"), local("Marck Script"),
-    url("/src/fonts/MarckScript-Regular.woff") format("woff"),
-    url("/src/fonts/MarckScript-Regular.woff2") format("woff2");
+    url("..//fonts/MarckScript-Regular.woff") format("woff"),
+    url("..//fonts/MarckScript-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -48,8 +48,8 @@
     font-style: normal;
     font-weight: 400;
     src: local("Mistral"), local("Mistral"),
-    url("/src/fonts/Mistral.woff") format("woff"),
-    url("/src/fonts/Mistral.woff2") format("woff2");
+    url("..//fonts/Mistral.woff") format("woff"),
+    url("..//fonts/Mistral.woff2") format("woff2");
 }
 
 @font-face {
@@ -57,6 +57,6 @@
     font-style: normal;
     font-weight: 700;
     src: local("Oswald"), local("Oswald"),
-    url("/src/fonts/Oswald-Bold.woff") format("woff"),
-    url("/src/fonts/Oswald-Bold.woff2") format("woff2");
+    url("../fonts/Oswald-Bold.woff") format("woff"),
+    url("..//fonts/Oswald-Bold.woff2") format("woff2");
 }

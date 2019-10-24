@@ -1,0 +1,18 @@
+<svg id="prew" xmlns="http://www.w3.org/2000/svg" width="13" height="7.53" viewBox="0 0 13 7.53">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #6c6f79;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M102.636,4286.5L98,4291l4.636,4.5" transform="translate(-99 -4287.25)"/>
+  <path class="cls-2" d="M113,4290H101" transform="translate(-99 -4287.25)"/>
+</svg>
