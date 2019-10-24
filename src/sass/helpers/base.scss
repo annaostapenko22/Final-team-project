@@ -21,6 +21,11 @@ img {
     margin: 0 auto;
 }
 
+h2, p {
+    padding: 0;
+    margin: 0;
+}
+
 @media (min-width: 710px) {
     .container {
         width: 710px;

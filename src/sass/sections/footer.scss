@@ -1,0 +1,228 @@
+
+.footer {
+    padding-bottom: 44px;
+    padding-top: 82px;
+    background-image: url("../images/footer-mb-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.contact-list,
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list__item address {
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #2c2c2c;
+font-family: "HelveticaR";
+display: flex;
+flex-direction: column;
+}
+
+.footer__logo img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.contact-list__item .contact-list__item--address {
+    width: 233px;
+    margin-bottom: 34px;
+}
+
+.contact-list__item .contact-list__item--contacts {
+    
+    width: 145px;
+    margin-bottom: 30px;
+}
+
+.btn--left-message {
+    border: none;
+    display: block;
+    width: 270px;
+    height: 54px;
+    background-image: linear-gradient(180deg, rgb(193,73,231) 0%, rgb(133,166,246) 100%);
+    box-shadow: 5.5px 9.526px 16px 0px rgba(90, 118, 233, 0.23);
+    border-radius: 35px;
+    margin: 0 auto;
+    color: $basic-color;
+    font-family: "HelveticaBd";
+    font-size: 13px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 35px;
+cursor: pointer;
+}
+
+.btn--left-message:hover {
+    animation: scale 1s linear alternate infinite;
+}
+@keyframes scale {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
+
+.social-list {
+    margin: 0 auto;
+    width: 165px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.social-list__item {
+    width: 42px;
+    height: 42px;
+    background-image: url("../images/icon-telegram.svg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.social-list__item:nth-of-type(2) {
+background-image: url("../images/icon-facebook.svg");
+}
+
+.social-list__item:nth-of-type(3) {
+    background-image: url("../images/icon-youtube.svg"); 
+}
+
+.extra-info a {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+letter-spacing: 1px;
+line-height: 25px;
+color: #6b6f7a;
+text-align: center;
+font-family: "HelveticaR";
+}
+
+
+@media (min-width: 710px) {
+
+.footer {
+    background-image:  url("../images/rocket.png"), url("../images/footer-tabl-bg.png");
+    background-size: 130px, cover;
+    background-position:  center right, 0 0;
+    background-repeat: no-repeat;
+   max-width: 1439px;
+}
+
+    .footer .container {
+        padding-left: 52px;
+    }
+    .contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 440px;
+    }
+
+    .contact-list__item address{
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.563;
+    }
+
+    .footer__logo {
+        display: inline-block;
+    }
+
+    // .button-list-wrapper {
+    //     display: flex;
+    //     width: 445px;
+    //     flex-wrap: wrap;
+    //     justify-content: space-between;
+    //     margin-bottom: 50px;
+    // }
+
+    .btn--left-message {
+        display: inline-block;
+        width: 240px;
+        margin: 0;
+        margin-right: 40px;
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+    .social-list {
+        display: inline-flex;
+        margin: 0;
+    }
+    // .social-list__item {
+    //     display: inline-block;
+    // }
+
+    .contact-list__item .contact-list__item--address {
+        width: 211px;
+    }
+    .contact-list__item .contact-list__item--contacts {
+        width: 163px;
+    }
+
+    .extra-info {
+
+        display: flex;
+        width: 638px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    .footer {
+        background-image:  url("../images/rocket.png"), url("../images/footer-tabl-bg.png");
+        background-size: 324px 500px, cover;
+        background-position:  center right 6%, 0 0;
+        background-repeat: no-repeat;
+       padding-top: 225px;
+       padding-bottom: 44px;
+       max-width: 1900px;
+    }
+    .footer__content-wrapper {
+        width: 890px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .contact-list {
+        order: -1;
+        margin-right: 113px;
+    }
+
+    .extra-info {
+order: 1;
+    }
+    .social-list {
+        order: 2;
+    }
+
+    .contact-list__item .contact-list__item--address {
+        width: 222px;
+        margin-right: 55px;
+    }
+
+    .btn--left-message {
+        display: block;
+       
+    }
+
+    
+}
+
+
+
