@@ -17,38 +17,77 @@
       </div>
       <div class="guestion">
         <p class="guestion__sing">Питання</p>
-        <p class="numbers"><span class="yellow">02</span> / 10</p>
+        <div class="guestion__wrapper-btn">
+          <button class="guestion__prev guestion__btn"></button>
+          <p class="guestion__numbers"><span class="yellow">02</span> / 10</p>
+          <button class="guestion__next guestion__btn "></button>
+        </div>
         <h4 class="guestion__title">
           В яку гру більш за все полюбляє грати ваша дитина
         </h4>
+        <div class="guestion__wrapper-btn-two">
+            <button class="guestion__prev-two guestion__btn">Назад</button>
+            <button class="guestion__next-two guestion__btn ">Далі</button>
+          </div>
       </div>
-      <form action="" class="test-form"></form>
+      <form action="" class="test-form">
       <ul class="test-menu__list">
         <li class="test-menu__item">
           <input
             type="checkbox"
-            class="test-menu__check"
+            class="test-menu__check visually-hidden"
             name="item-test"
             value="Майнкраф"
             id="answer1"
           />
-          <span class="test-menu__item-sing yellow ">Відповідь 1</span>
-          <label for="answer1" class="test-menu__label"></label>
-          <span class="test-menu__item-aswer">Майнкрвфт</span>
+          <label for="answer1" class="test-menu__label"
+            ><span class="test-menu__item-sing yellow ">Відповідь 1</span
+            ><span class="test-menu__item-aswer">Майнкрвфт</span></label
+          >
         </li>
         <li class="test-menu__item">
-          <input type="text" class="test-menu__check" />
-          <label for="" class="test-menu__label"> </label>
+          <input
+            type="checkbox"
+            class="test-menu__check visually-hidden"
+            name="item-test"
+            value="ten"
+            id="answer2"
+          />
+          <label for="answer2" class="test-menu__label"
+            ><span class="test-menu__item-sing yellow ">Відповідь 2</span
+            ><span class="test-menu__item-aswer"
+              >Знайди 10 відмінностей</span
+            ></label
+          >
         </li>
         <li class="test-menu__item">
-          <input type="text" class="test-menu__check" />
-          <label for="" class="test-menu__label"></label>
+          <input
+            type="checkbox"
+            class="test-menu__check visually-hidden"
+            name="item-test"
+            value="pazl"
+            id="answer3"
+          />
+          <label for="answer3" class="test-menu__label"
+            ><span class="test-menu__item-sing yellow ">Відповідь 3</span
+            ><span class="test-menu__item-aswer">Збирати пазли</span></label
+          >
         </li>
         <li class="test-menu__item">
-          <input type="text" class="test-menu__check" />
-          <label for="" class="test-menu__label"></label>
+          <input
+            type="checkbox"
+            class="test-menu__check visually-hidden"
+            name="item-test"
+            value="lego"
+            id="answer4"
+          />
+          <label for="answer4" class="test-menu__label">
+            <span class="test-menu__item-sing yellow ">Відповідь 4</span>
+            <span class="test-menu__item-aswer">Конструктор LEGO</span>
+          </label>
         </li>
       </ul>
+    </form>
     </div>
   </div>
 </section>
