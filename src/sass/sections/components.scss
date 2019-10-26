@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 /*SECTION COMPONENTS*/
 .components {
   padding-top: 25px;
@@ -15,10 +16,10 @@
   background-size: 100% 417px;
   background-position: bottom;
 
-  &::after{
+  &::after {
     display: block;
     content: "";
-    background-image:url('../images/sputnik-2.png');
+    background-image: url('../images/sputnik-mobyle.svg');
     background-size: cover;
     width: 95px;
     height: 195px;
@@ -106,7 +107,7 @@
 }
 
 .components-list__item:nth-of-type(1).components-list__item::before {
-  background-image: url("../images/planet1.png");
+  background-image: url("../images/planet1.svg");
 }
 
 .components-list__item:nth-of-type(2).components-list__item::before {
@@ -114,7 +115,7 @@
 }
 
 .components-list__item:nth-of-type(3).components-list__item::before {
-  background-image: url("../images/rocket.png");
+  background-image: url("../images/rocket.svg");
 }
 
 .write {
@@ -137,20 +138,22 @@
     box-shadow: 0px 13px 17.1px 0.9px rgba(233, 182, 66, 0.4);
   }
 
-  &:hover {
-    animation: scale 1s linear alternate infinite;
-  }
+  
 }
 
-.write
-@keyframes scale {
-  from {
-      transform: scale(1.1);
-  }
-  to {
-      transform: scale(0.9);
-  }
-}
+// .write:hover {
+//   animation: scale 1s linear alternate infinite;
+// }
+
+// .write @keyframes scale {
+//   from {
+//     transform: scale(1.1);
+//   }
+
+//   to {
+//     transform: scale(0.9);
+//   }
+// }
 
 .format-list {
   list-style: none;
@@ -195,30 +198,29 @@
   margin-bottom: 76px;
 }
 
-.format-list
-.format-list__item:nth-last-of-type(1){
+.format-list .format-list__item:nth-last-of-type(1) {
   margin-bottom: 0;
-  }
+}
 
 .format-list {
   position: relative;
 }
 
 @media (min-width: 710px) {
-
   .components {
     background-image: url('../images/section-2-bg-tablet.png');
     padding-top: 55px;
-    &::after{
-      background-image: url('../images/sputnik-2-tablet.png');
+
+    &::after {
+      background-image: url('../images/sputnik-tablet.svg');
       width: 298px;
       height: 370px;
       bottom: 30px;
     }
-    
+
   }
 
-  .format{
+  .format {
     padding-bottom: 60px;
   }
 
@@ -308,13 +310,13 @@
       &__title-courses {
         font-size: 30px;
         line-height: 25px;
-    }
+      }
 
       &__item {
         width: 420px;
         margin-bottom: 86px;
 
-        &::before{
+        &::before {
           margin-bottom: 45px;
         }
       }
@@ -325,7 +327,7 @@
       margin-bottom: 70px;
     }
 
-    &::after{
+    &::after {
       display: none;
     }
   }
@@ -337,40 +339,50 @@
   .components .container::after {
     display: block;
     content: "";
-    background-image: url('../images/sputnik-2-desk-top.png');
+    background-image: url('../../images/sputnik.svg');
     width: 561px;
     height: 563px;
     position: absolute;
     bottom: 0;
     right: 0;
-   }
+  }
 
-   .components .container:hover::after{
+  .components .container:hover::after {
     animation: fly-rotate 3s linear;
-   }
+  }
 
-   @keyframes fly-rotate {
+  @keyframes fly-rotate {
     0% {
-        transform: translate(0px, -150px) rotate(-90deg);
+      transform: translate(0px, -150px) rotate(-90deg);
     }
+
     50% {
-        transform: translate(-400px, -100px) rotate(-130deg);
+      transform: translate(-400px, -100px) rotate(-130deg);
     }
+
     80% {
       transform: translate(-840px, -100px) rotate(-200deg);
     }
+
     100% {
-        transform: translate(-1600px, -100px) rotate(-360deg);
+      transform: translate(-1600px, -100px) rotate(-360deg);
     }
-  } 
+  }
 
-.write {
-  margin-bottom: 230px;
+  .write {
+    margin-bottom: 230px;
+  }
+
+  .format {
+    width: 420px;
+    margin-left: 200px;
+  }
+
 }
 
-.format{
-  width: 420px;
-  margin-left: 200px;
-}
-
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .components-list__item:nth-of-type(2).components-list__item::before {
+    background: url('../images/desk-top@2.png') no-repeat;
+    background-size: cover;
+  }
 }

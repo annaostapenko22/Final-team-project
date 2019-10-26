@@ -1,5 +1,5 @@
 .test {
-  background-image: url(../images/icon-sputnik.png), url(../images/header-bg.png);
+  background-image: url(../images/icon-sputnik-mobyle.svg), url(../images/header-bg.png);
   background-repeat: no-repeat;
   background-size: 74px 68px, 100% 414px;
   background-position: center top 40px, top;
@@ -140,7 +140,7 @@
   }
 
   .test {
-    background-image: url(../images/icon-sputnik-tablet.png), url(../images/header-bg.png);
+    background-image: url(../images/icon-sputnik-tablet.svg), url(../images/header-bg.png);
     background-size: 98px 95px, 100% 660px;
     background-position: center top 75px, top;
     padding-top: 170px;
@@ -198,7 +198,7 @@
   }
 
   .test {
-    background-image: url(../images/icon-sputnik-desk-top.png), url(../../images/section-4-bg-desk-top.png);
+    background-image: url(../images/icon-sputnik-desk-top.svg), url(../../images/section-4-bg-desk-top.png);
     background-size: 120px 116px, 100% 838px;
     background-position: center top 130px, top;
     padding-top: 260px;
@@ -335,13 +335,13 @@
   }
 }
 
-// .visually-hidden {
-//   position: absolute;
-//   clip: rect(1px 1px 1px 1px);
-//   clip: rect(1px, 1px, 1px, 1px);
-//   padding: 0;
-//   border: 0;
-//   height: 1px;
-//   width: 1px;
-//   overflow: hidden;
-// }
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
