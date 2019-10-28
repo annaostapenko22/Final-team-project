@@ -1,0 +1,390 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*SECTION COMPONENTS*/
+.components {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  position: relative;
+  background-image: url('../images/section-2-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 417px;
+  background-position: bottom;
+
+  &::after {
+    display: block;
+    content: "";
+    background-image: url('../images/sputnik-mobyle.svg');
+    background-size: cover;
+    width: 95px;
+    height: 195px;
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    filter: drop-shadow(-2.071px 7.727px 4px rgba(79,125,240,0.14));
+  }
+
+  &-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &__title-courses {
+      font-size: 20px;
+      line-height: 25px;
+      font-family: "HelveticaBd";
+      color: #2c2c2c;
+      margin-bottom: 18px;
+    }
+
+    &__fatty {
+      color: #2c2c2c;
+      font-family: "HelveticaBd";
+    }
+
+    &__item::before {
+      content: "";
+      display: block;
+      height: 152px;
+      width: 150px;
+      background-size: cover;
+      margin: 0 auto 34px;
+    }
+
+    &__item {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.test-menu__title,
+.components__title {
+  margin-bottom: 22px;
+  font-size: 15px;
+  font-family: "OswaldB";
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.9px;
+  line-height: 20px;
+  color: #2c2c2c;
+}
+
+.yellow,
+.text-span,
+.components__span {
+  color: #eebf3e;
+}
+
+.test-menu__item-aswer,
+.test-menu__text,
+.components-list__text-courses,
+.format-list__text {
+  color: $text-color;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "HelveticaM";
+  letter-spacing: 0.4px;
+}
+
+.line {
+  display: block;
+}
+
+.components-list__title-courses--one::first-letter {
+  color: #c7007c;
+}
+
+.components-list__title-courses--two::first-letter {
+  color: #eec14d;
+}
+
+.components-list__title-courses--three::first-letter {
+  color: #5f7cec;
+}
+
+.components-list__item:nth-of-type(1).components-list__item::before {
+  background-image: url("../images/planet1.svg");
+}
+
+.components-list__item:nth-of-type(2).components-list__item::before {
+  background-image: url("../images/desk-top.png");
+}
+
+.components-list__item:nth-of-type(3).components-list__item::before {
+  background-image: url("../images/rocket.svg");
+}
+
+.write {
+  display: block;
+  background-color: rgb(254, 194, 64);
+  box-shadow: 0px 13px 17.1px 0.9px rgba(238, 193, 77, 0.4);
+  border-radius: 27px;
+  width: 270px;
+  height: 54px;
+  border: none;
+  margin: 0 auto 60px;
+  font-size: 13px;
+  font-family: "HelveticaBd";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(233, 182, 66);
+    box-shadow: 0px 13px 17.1px 0.9px rgba(233, 182, 66, 0.4);
+  }
+}
+
+.write:hover {
+  animation: scale 1s linear alternate infinite;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}
+
+.format-list {
+  list-style: none;
+
+  &__title {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "HelveticaBd";
+    color: #2c2c2c;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  &__svg {
+    height: 17px;
+    width: 18px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+
+  &__item {
+    margin-bottom: 32px;
+    padding-left: 40px;
+
+    &:nth-of-type(1) .format-list__svg {
+      fill: #ca0078;
+    }
+
+    &:nth-of-type(2) .format-list__svg {
+      fill: #eec14d;
+    }
+
+    &:nth-of-type(3) .format-list__svg {
+      fill: #5f7cec;
+    }
+  }
+
+}
+
+.format:nth-of-type(1) .components__title {
+  margin-bottom: 76px;
+}
+
+.format-list .format-list__item:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+.format-list {
+  position: relative;
+}
+
+@media (min-width: 710px) {
+  .components {
+    background-image: url('../images/section-2-bg-tablet.png');
+    padding-top: 55px;
+
+    &::after {
+      background-image: url('../images/sputnik-tablet.svg');
+      width: 298px;
+      height: 370px;
+      bottom: 30px;
+      
+    }
+
+  }
+
+  .format {
+    padding-bottom: 60px;
+  }
+
+  .components-list__title-courses {
+    margin-bottom: 26px;
+    font-size: 25px;
+  }
+
+  .components-list__text-courses {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .components-list__item {
+    margin-bottom: 42px;
+  }
+
+  .components__title {
+    font-size: 20px;
+  }
+
+  .write {
+    font-size: 19px;
+    width: 400px;
+    height: 56px;
+    margin-bottom: 94px;
+  }
+
+  .components-list__item::before {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 40px;
+  }
+
+  .components-list__item {
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 768px;
+    height: 9741px;
+    z-index: 231;
+  }
+
+  .format:nth-of-type(1) .components__title {
+    margin-bottom: 90px;
+  }
+
+  .components-list__title-courses {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .components-list__text-courses {
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  .components-list__item {
+    margin-bottom: 46px;
+  }
+
+  .line {
+    display: inline-block;
+  }
+
+  .block {
+    display: block;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .components {
+    background-image: url('../images/section-2-bg-desk-top.png');
+    background-size: 100% 710px;
+    padding-top: 68px;
+    padding-bottom: 110px;
+    
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+
+      &__title-courses {
+        font-size: 30px;
+        line-height: 25px;
+      }
+
+      &__item {
+        width: 420px;
+        margin-bottom: 86px;
+
+        &::before {
+          margin-bottom: 45px;
+        }
+      }
+    }
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 70px;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .components .container {
+    position: relative;
+  }
+
+  .components .container::after {
+    display: block;
+    content: "";
+    background-image: url('../../images/sputnik.svg');
+    width: 561px;
+    height: 563px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: drop-shadow(-2.071px 7.727px 4px rgba(79,125,240,0.14));
+  }
+
+  .components .container:hover::after {
+    animation: fly-rotate 3s linear;
+  }
+
+  @keyframes fly-rotate {
+    0% {
+      transform: translate(0px, -150px) rotate(-90deg);
+    }
+
+    50% {
+      transform: translate(-400px, -100px) rotate(-130deg);
+    }
+
+    80% {
+      transform: translate(-840px, -100px) rotate(-200deg);
+    }
+
+    100% {
+      transform: translate(-1600px, -100px) rotate(-360deg);
+    }
+  }
+
+  .write {
+    margin-bottom: 230px;
+  }
+
+  .format {
+    width: 420px;
+    margin-left: 200px;
+  }
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .components-list__item:nth-of-type(2).components-list__item::before {
+    background: url('../images/desk-top@2.png') no-repeat;
+    background-size: cover;
+  }
+}

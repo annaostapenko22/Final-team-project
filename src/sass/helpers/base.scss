@@ -1,24 +1,24 @@
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-    width: 290px;
-    margin: 0 auto;
+  width: 290px;
+  margin: 0 auto;
 }
 
 h2, p {
@@ -27,15 +27,15 @@ h2, p {
 }
 
 @media (min-width: 710px) {
-    .container {
-        width: 710px;
-        margin: 0 auto;
-    }
+  .container {
+    width: 710px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1440px) {
-    .container {
-        width: 1440px;
-        margin: 0 auto;
-    }
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
 }

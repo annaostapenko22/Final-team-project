@@ -65,14 +65,14 @@
 .btn--prev {
   top: 50%;
   left: 0;
-  transform: translate(-50%, -100%);
+  transform: translate(-25%, -100%);
   background-image: url("../images/arrow-left.png");
 }
 
 .btn--next {
   top: 50%;
   right: 0;
-  transform: translate(50%, -100%);
+  transform: translate(25%, -100%);
   background-image: url("../images/arrow-right.png");
 }
 
