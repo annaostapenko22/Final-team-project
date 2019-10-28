@@ -45,7 +45,7 @@ img {
 .header {
   background-image: url("../images/header-backgr.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 450px;
   background-position: center;
   min-height: 450px;
 }
@@ -270,7 +270,7 @@ img {
   .header {
     background-image: url("../images/header-backgr-tablet.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 540px;
     background-position: center;
     min-height: 540px;
   }
@@ -361,7 +361,7 @@ img {
   .header {
     background-image: url("../images/header-backgr-desktop.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 

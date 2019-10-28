@@ -51,7 +51,7 @@
 .why-it__background2 {
   background-image: url("../images/section-2-backgr.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 1235px;
   background-position: bottom center;
   min-height: 1300px;
 }
@@ -180,7 +180,7 @@
   .why-it__background2 {
     background-image: url("../images/section-2-backgr-tablet.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 1400px;
     background-position: bottom center;
     min-height: 1284px;
   }
@@ -206,6 +206,8 @@
     font-size: 26px;
     position: relative;
   }
+
+  
 
   @keyframes slidein {
     from {
