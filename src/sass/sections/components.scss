@@ -26,6 +26,7 @@
     position: absolute;
     right: 0;
     bottom: -15px;
+    filter: drop-shadow(-2.071px 7.727px 4px rgba(79,125,240,0.14));
   }
 
   &-list {
@@ -137,8 +138,6 @@
     background-color: rgb(233, 182, 66);
     box-shadow: 0px 13px 17.1px 0.9px rgba(233, 182, 66, 0.4);
   }
-
-  
 }
 
 .write:hover {
@@ -216,6 +215,7 @@
       width: 298px;
       height: 370px;
       bottom: 30px;
+      
     }
 
   }
@@ -302,6 +302,7 @@
     background-size: 100% 710px;
     padding-top: 68px;
     padding-bottom: 110px;
+    
 
     &-list {
       display: flex;
@@ -345,6 +346,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    filter: drop-shadow(-2.071px 7.727px 4px rgba(79,125,240,0.14));
   }
 
   .components .container:hover::after {
