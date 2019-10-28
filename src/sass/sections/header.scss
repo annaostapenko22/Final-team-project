@@ -1,3 +1,35 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "HelveticaR";
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 290px;
+  margin: 0 auto;
+}
+
 /* NAVIGATION MOBILE */
 
 .navigation {
