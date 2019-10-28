@@ -22,13 +22,6 @@
 
 }
 
-// .feedback__title {
-
-// }
-
-// .feedback__title span {
-
-// }
 
 .post-2,
 .post-1,
@@ -65,14 +58,14 @@
 .btn--prev {
   top: 50%;
   left: 0;
-  transform: translate(-25%, -100%);
+  transform: translate(-40%, -100%);
   background-image: url("../images/arrow-left.png");
 }
 
 .btn--next {
   top: 50%;
   right: 0;
-  transform: translate(25%, -100%);
+  transform: translate(40%, -100%);
   background-image: url("../images/arrow-right.png");
 }
 
