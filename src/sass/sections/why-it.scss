@@ -51,8 +51,9 @@
 .why-it__background2 {
   background-image: url("../images/section-2-backgr.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 1200px;
+  background-size: contain;
   background-position: bottom center;
+  min-height: 1300px;
 }
 
 .why-it__title-subtitle {
