@@ -141,19 +141,19 @@
   
 }
 
-// .write:hover {
-//   animation: scale 1s linear alternate infinite;
-// }
+.write:hover {
+  animation: scale 1s linear alternate infinite;
+}
 
-// .write @keyframes scale {
-//   from {
-//     transform: scale(1.1);
-//   }
+@keyframes scale {
+  from {
+    transform: scale(1.1);
+  }
 
-//   to {
-//     transform: scale(0.9);
-//   }
-// }
+  to {
+    transform: scale(0.9);
+  }
+}
 
 .format-list {
   list-style: none;
