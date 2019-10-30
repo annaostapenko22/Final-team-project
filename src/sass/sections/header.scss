@@ -1,15 +1,4 @@
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
 
 body {
   font-size: 16px;
@@ -120,6 +109,10 @@ img {
   color: #ffffff;
   text-align: center;
   animation: pulse-text 3s infinite;
+}
+
+.header__link-more:hover {
+  color: #fcbf2c;
 }
 
 .header__svg-kids-wrapper {
