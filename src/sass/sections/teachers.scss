@@ -135,12 +135,12 @@ table {
 
 /* TEACHERS SECTION */
 
-.container {
-  width: 320px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-}
+// .container {
+//   width: 320px;
+//   margin: 0 auto;
+//   position: relative;
+//   padding: 0;
+// }
 
 .teacher__starter-kit {
   width: 270px;
@@ -276,13 +276,13 @@ table {
 .teachers__card-text-size {
   display: inline-block;
   font-size: 14px;
-  padding-left: 17px;
+  // padding-left: 17px;
 }
 
 .teachers__card-text-size-top {
   display: inline-block;
   width: 230px;
-  padding-left: 17px;
+  // padding-left: 17px;
 }
 
 .teachers__card-text-accomplishments {
@@ -308,7 +308,8 @@ table {
   font-weight: 700;
   padding-bottom: 20px;
   margin-top: 15px;
-  padding-left: 17px;
+  margin: 0 auto;
+  // padding-left: 17px;
 }
 
 /* meadia -------------------------------------------------------------- */
@@ -316,11 +317,11 @@ table {
 @media (min-width: 710px) {
   .teachers {
     position: relative;
-    width: 768px;
+    // width: 710px;
 
     padding-bottom: 90px;
     overflow: hidden;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
 
   .teachers__title {
@@ -338,13 +339,14 @@ table {
     margin: 0 auto;
   }
 
-  .container {
-    width: 710px;
-    margin: 0 auto;
-  }
+  // .container {
+  //   width: 710px;
+  //   margin: 0 auto;
+  // }
 
   .teacher__starter-kit {
     width: auto;
+    position: relative;
   }
 
   .PHOTO {
@@ -386,13 +388,13 @@ table {
 
   .right-side {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     left: 610px;
   }
 
   .left-side {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
 
     left: -270px;
   }
@@ -421,7 +423,7 @@ table {
     line-height: 30px;
     padding-bottom: 20px;
     margin-top: 15px;
-    padding-left: 27px;
+    // padding-left: 27px;
   }
 
   .right-lore-dscktp {
@@ -440,11 +442,11 @@ table {
   .teachers__card-text-size-top {
     width: 300px;
 
-    padding-left: 27px;
+    // padding-left: 27px;
   }
 
   .teacher__card-top-span {
-    padding-left: 10px;
+    // padding-left: 10px;
     display: block;
   }
 
@@ -455,7 +457,7 @@ table {
   .teachers__card-text-size {
     width: 280px;
 
-    padding-left: 27px;
+    // padding-left: 27px;
     display: inline-block;
   }
 
@@ -465,11 +467,11 @@ table {
 }
 
 @media (min-width: 1440px) {
-  .container {
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0;
-  }
+  // .container {
+  //   width: 1440px;
+  //   margin: 0 auto;
+  //   padding: 0;
+  // }
 
   .teachers__title {
     width: 240px;
@@ -567,7 +569,7 @@ table {
   }
 
   .teacher__card-top-span {
-    padding-left: 10px;
+    // padding-left: 10px;
     display: block;
   }
 
@@ -578,7 +580,7 @@ table {
     line-height: 30px;
     padding-bottom: 20px;
     margin-top: 15px;
-    padding-left: 27px;
+    // padding-left: 27px;
   }
 
   .right-lore-dscktp {
