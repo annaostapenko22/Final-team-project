@@ -285,6 +285,16 @@
   .components-list__item {
     margin-bottom: 46px;
   }
+.format-list__item::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: '';
+  background-image: url("../images/icon-star.svg");
+  position: absolute;
+  left: 0px;
+  // fill: red;
+}
 
   .line {
     display: inline-block;
