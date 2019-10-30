@@ -1,0 +1,390 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* COURSE SECTION */
+
+.container {
+  width: 320px;
+  padding-top: 49px;
+}
+
+.course {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.course::before {
+  display: block;
+  content: '';
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-image: url(../images/icon-code.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(7.5px 12.99px 12px rgba(90,118,233,0.12));
+  width: 39px;
+  height: 39px;
+}
+
+.course__title {
+  width: 210px;
+  margin: 0 auto;
+  padding-top: 25px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #2c2c2c;
+  font-family: 'OswaldB';
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.course__title-brackets {
+  color: #eebf3e;
+}
+
+.course__title-size {
+  display: block;
+}
+
+.course__text-size {
+  display: block;
+}
+
+.course__text {
+  width: 205px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  color: #eebf3e;
+  font-family: 'HelveticaR';
+  font-weight: bold;
+  text-align: center;
+}
+
+.course__option-list {
+  list-style: none;
+}
+
+.course__option-list-item {
+  width: 320px;
+  height: 231px;
+  margin: 0;
+  padding-bottom: 32px;
+  padding-left: 38px;
+}
+
+.course__option-list-item:nth-of-type(2n + 1) {
+  background-color: #f5f9fe;
+}
+
+.course__option-list-item:nth-of-type(2n + 2) {
+  background-color: #e8f1fa;
+}
+
+.course__option-list-item-title::before {
+  display: inline-block;
+  content: '';
+  width: 19px;
+  height: 16px;
+  margin-right: 15px;
+  background-image: url(../images/star.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.course__option-list-item-title {
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #2c2c2c;
+  font-family: 'HelveticaR';
+  font-weight: bold;
+}
+
+.course__option-list-item-age {
+  height: 22px;
+  margin-bottom: 12px;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #eebf3e;
+  font-family: 'HelveticaR';
+  font-weight: bold;
+}
+
+.course__option-list-item-age::after {
+  display: inline-block;
+  content: 'років';
+  position: relative;
+  bottom: 22px;
+  margin-left: 6px;
+  border-bottom: 1px solid #eebf3e;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #eebf3e;
+  font-family: 'HelveticaR';
+}
+
+.course__option-list-item-text {
+  width: 240px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #2c2c2c;
+  font-family: 'HelveticaR';
+}
+
+@media (min-width: 710px) {
+  .container {
+    width: 710px;
+    margin: 0 auto;
+  }
+
+  .course {
+    padding-top: 88px;
+    padding-bottom: 89px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .course__title-size {
+    display: inline-block;
+    padding-bottom: 18px;
+  }
+
+  .course__title {
+    width: 666px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 0;
+  }
+
+  .course__text-size {
+    display: inline-block;
+  }
+
+  .course__text {
+    width: 460px;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 0;
+    padding-bottom: 25px;
+  }
+
+  .course__option-list {
+    display: flex;
+    width: 680px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .course__option-list-item {
+    width: 340px;
+    height: 262px;
+  }
+
+  .course__option-list-item:nth-of-type(n + 2) {
+    background-color: #e8f1fa;
+  }
+
+  .course__option-list-item:nth-of-type(3n + 1) {
+    background-color: #f5f9fe;
+  }
+
+  .course__option-list-item-title {
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 65px;
+  }
+
+  .course {
+    padding-top: 134px;
+    padding-bottom: 0;
+  }
+
+  .course__option-list {
+    display: flex;
+    width: 1420px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 88px;
+  }
+
+  .course__title {
+    width: 1000px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 45px;
+  }
+
+  .course__text {
+    width: 700px;
+    padding: 0 0 60px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+
+  .course__text-size {
+    display: inline-block;
+  }
+
+  .course__option-list {
+    padding-bottom: 130px;
+  }
+}
