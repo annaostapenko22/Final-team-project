@@ -265,6 +265,10 @@
 
 /*   WHY-IT SECTION DESKTOP   */
 @media screen and (min-width: 1480px) {
+//  .why-it__background2 {
+//    padding-top: 20px;
+//  }
+
   .why-it__text-image-wrapper {
     display: flex;
     flex-direction: row-reverse;
@@ -345,6 +349,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
+
   }
 
   .why-it__partners-list {
