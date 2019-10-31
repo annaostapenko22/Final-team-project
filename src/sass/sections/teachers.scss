@@ -1,5 +1,3 @@
-
-
 /* TEACHERS SECTION */
 
 // .container {
@@ -202,10 +200,10 @@
     padding-bottom: 40px;
   }
 
-  .slider {
-    width: 768px;
-    margin: 0 auto;
-  }
+  //  .slider {
+  //  width: 768px;
+  //  margin: 0 auto;
+  //  }
 
   // .container {
   //   width: 710px;
@@ -278,6 +276,10 @@
     display: none;
   }
 
+  .side-right {
+    display: none;
+  }
+
   .teachers__card:nth-of-type(n + 2) {
     display: block;
     width: 380px;
@@ -291,7 +293,7 @@
     line-height: 30px;
     padding-bottom: 20px;
     margin-top: 15px;
-    // padding-left: 27px;
+    padding-left: 27px;
   }
 
   .right-lore-dscktp {
@@ -331,6 +333,7 @@
 
   .teachers__card-text-accomplishments {
     height: auto;
+    padding-left: 27px;
   }
 }
 
@@ -399,15 +402,7 @@
   }
 
   .right-side {
-    order: 4;
-    position: absolute;
-    right: -230px;
-  }
-
-  .left-side {
-    position: absolute;
-    order: 1;
-    right: 570px;
+    position: unset;
   }
 
   .teachers__card {
@@ -420,16 +415,28 @@
     display: none;
   }
 
+  .side-left {
+    display: none;
+  }
+
   .teachers__photo-button-right {
     display: none;
   }
 
   .teachers__photo-button-left {
-    display: none;
+    display: block;
+  }
+
+  .left-side {
+    position: unset;
+  }
+
+  .side-right {
+    display: block;
   }
 
   .dscktp {
-    display: block;
+    display: none;
   }
 
   .teachers__card-text-size {
@@ -448,7 +455,7 @@
     line-height: 30px;
     padding-bottom: 20px;
     margin-top: 15px;
-    // padding-left: 27px;
+    padding-left: 27px;
   }
 
   .right-lore-dscktp {
