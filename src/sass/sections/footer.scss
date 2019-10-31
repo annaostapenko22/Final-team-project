@@ -135,11 +135,11 @@
   }
 
   80% {
-    transform: translate(-840px, -200px) rotate(-90deg);
+    transform: translate(-840px, -400px) rotate(-90deg);
   }
 
   100% {
-    transform: translate(-1600px, -400px) rotate(-90deg);
+    transform: translate(-1600px, -800px) rotate(-90deg);
   }
 }
 
@@ -259,18 +259,22 @@
   .btn--left-message {
     display: block;
   }
-
+// .footer:hover {
+//   animation-name: fly;
+//   animation-duration: 2.5s;
+//    animation-timing-function: linear;
+// }
   .rocket-img {
     display: block;
     position: absolute;
     bottom: 0%;
     right: 5%;
+    
 
-    &:hover {
-        animation-name: fly;
-        animation-duration: 2.5s;
-        animation-timing-function: linear;
-    }
+    // &:hover {
+        
+        
+    // }
   }
 
 }
