@@ -149,7 +149,7 @@
 }
 
 /*   WHY-IT  SECTION  TABLET  */
-@media screen and (min-width: 710px) {
+@media screen and (min-width: 768px) {
   .why-it__main-title {
     width: 426px;
     font-size: 35px;
@@ -262,7 +262,7 @@
 
 
 /*   WHY-IT SECTION DESKTOP   */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1480px) {
   .why-it__text-image-wrapper {
     display: flex;
     flex-direction: row-reverse;

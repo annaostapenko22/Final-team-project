@@ -205,7 +205,7 @@
   position: relative;
 }
 
-@media (min-width: 710px) {
+@media (min-width: 768px) {
   .components {
     background-image: url('../images/section-2-bg-tablet.png');
     padding-top: 55px;
@@ -313,7 +313,7 @@
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1480px) {
   .components {
     background-image: url('../images/section-2-bg-desk-top.png');
     background-size: 100% 710px;
