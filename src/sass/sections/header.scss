@@ -35,6 +35,7 @@ img {
   background-size: 100% 450px;
   background-position: top center;
   min-height: 450px;
+  overflow: hidden;
 }
 
 @keyframes bounceIn {
@@ -86,7 +87,7 @@ img {
   width: 180px;
   margin: 0 auto;
   padding-top: 82px;
-  animation: pulse-text 3s infinite;
+  // animation: pulse-text 3s infinite;
 }
 
 .header__subtitle {
@@ -116,14 +117,14 @@ img {
 }
 
 .header__svg-kids-wrapper {
- 
+  animation: bounceIn 3s linear 2 alternate;
   padding-top: 24px;
   
 }
 
-.header__svg-kids-wrapper:hover {
-  animation: bounceIn 3s linear 2 alternate;
-}
+// .header__svg-kids-wrapper:hover {
+  
+// }
 .header__svg-kids {
   display: block;
   margin: 0 auto;

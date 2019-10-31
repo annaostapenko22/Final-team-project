@@ -364,10 +364,12 @@
     bottom: 0;
     right: 0;
     filter: drop-shadow(-2.071px 7.727px 4px rgba(79,125,240,0.14));
+    transition: all 2s linear;
   }
 
   .components .container:hover::after {
     animation: fly-rotate 3s linear;
+    transition: all 2s linear;
   }
 
   @keyframes fly-rotate {

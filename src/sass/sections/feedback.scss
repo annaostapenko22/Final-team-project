@@ -53,6 +53,7 @@
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .btn--prev {
@@ -62,10 +63,18 @@
   background-image: url("../images/arrow-left.png");
 }
 
+.btn--prev:hover {
+  background-image: url("../images/arrow-left-bl.png");
+}
+
 .btn--next {
   top: 50%;
   right: 0;
   transform: translate(40%, -100%);
+  background-image: url("../images/arrow-right-wh.png");
+}
+
+.btn--next:hover {
   background-image: url("../images/arrow-right.png");
 }
 
@@ -209,7 +218,10 @@
     }
   }
 
-
+.btn--next,
+.btn--prev {
+  display: none;
+}
   .post-wrapper {
     left: 0;
     margin: 0 auto;

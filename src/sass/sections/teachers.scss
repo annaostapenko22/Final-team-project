@@ -83,12 +83,14 @@
   }
 }
 
-.teachers__photo-button-left:focus {
-  animation: scale 0.3s linear;
+.teachers__photo-button-left:focus,
+.teachers__photo-button-left:hover {
+  animation: scale 0.6s linear;
 }
 
-.teachers__photo-button-right:focus {
-  animation: scale 0.3s linear;
+.teachers__photo-button-right:focus,
+.teachers__photo-button-right:hover {
+  animation: scale 0.6s linear;
 }
 
 .teachers__photo-button-left {
@@ -101,6 +103,8 @@
   position: absolute;
   bottom: 100px;
   left: -20px;
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .teachers__photo-button-left::before {
@@ -112,6 +116,11 @@
   width: 15px;
   height: 15px;
   color: #ebebeb;
+  transition: all 0.2s linear;
+}
+
+.teachers__photo-button-left:hover::before {
+  background-image: url("../images/arrow-left-bl.png");
 }
 
 .teachers__photo-button-right {
@@ -124,20 +133,26 @@
   bottom: 100px;
   right: -20px;
   background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .teachers__photo-button-right::before {
   content: '';
   display: inline-block;
-  background-image: url(../images/ar.png);
+  background-image: url(../images/arrow-right-wh.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 15px;
   height: 15px;
   color: #ebebeb;
   animation-timing-function: ease-in-out;
+  transition: all 0.2s linear;
 }
 
+.teachers__photo-button-right:hover::before {
+  background-image: url("../images/arrow-right.png");
+}
 .teachers__card-text-size {
   display: inline-block;
   font-size: 14px;
@@ -200,15 +215,6 @@
     padding-bottom: 40px;
   }
 
-  //  .slider {
-  //  width: 768px;
-  //  margin: 0 auto;
-  //  }
-
-  // .container {
-  //   width: 710px;
-  //   margin: 0 auto;
-  // }
 
   .teacher__starter-kit {
     width: auto;

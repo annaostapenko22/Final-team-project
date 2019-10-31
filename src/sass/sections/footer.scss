@@ -38,6 +38,10 @@
   flex-direction: column;
 }
 
+.contact-list__item--contacts a {
+  text-decoration: none;
+  color: $title-color;
+}
 
 .contact-list__item {
     .contact-list__item--address {
@@ -68,11 +72,13 @@
         text-align: center;
         margin-bottom: 35px;
         cursor: pointer;
+        transition: all 0.5s;
     }
 
     &--left-message {
         &:hover {
             animation: scale 1s linear alternate infinite;
+            transition: all 0.5s;
         }
     }
 }

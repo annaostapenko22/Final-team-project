@@ -488,6 +488,7 @@ img {
   background-size: 100% 450px;
   background-position: top center;
   min-height: 450px;
+  overflow: hidden;
 }
 
 @-webkit-keyframes bounceIn {
@@ -570,8 +571,6 @@ img {
   width: 180px;
   margin: 0 auto;
   padding-top: 82px;
-  -webkit-animation: pulse-text 3s infinite;
-  animation: pulse-text 3s infinite;
 }
 
 .header__subtitle {
@@ -602,12 +601,9 @@ img {
 }
 
 .header__svg-kids-wrapper {
-  padding-top: 24px;
-}
-
-.header__svg-kids-wrapper:hover {
   -webkit-animation: bounceIn 3s linear 2 alternate;
   animation: bounceIn 3s linear 2 alternate;
+  padding-top: 24px;
 }
 
 .header__svg-kids {
@@ -719,6 +715,7 @@ img {
   font-family: "HelveticaBl";
   font-weight: 800;
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .why-it__title {
@@ -727,6 +724,7 @@ img {
   font-family: "OswaldB";
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -1432,14 +1430,16 @@ img {
   }
 }
 
-.teachers__photo-button-left:focus {
-  -webkit-animation: scale 0.3s linear;
-  animation: scale 0.3s linear;
+.teachers__photo-button-left:focus,
+.teachers__photo-button-left:hover {
+  -webkit-animation: scale 0.6s linear;
+  animation: scale 0.6s linear;
 }
 
-.teachers__photo-button-right:focus {
-  -webkit-animation: scale 0.3s linear;
-  animation: scale 0.3s linear;
+.teachers__photo-button-right:focus,
+.teachers__photo-button-right:hover {
+  -webkit-animation: scale 0.6s linear;
+  animation: scale 0.6s linear;
 }
 
 .teachers__photo-button-left {
@@ -1453,6 +1453,8 @@ img {
   position: absolute;
   bottom: 100px;
   left: -20px;
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .teachers__photo-button-left::before {
@@ -1464,6 +1466,11 @@ img {
   width: 15px;
   height: 15px;
   color: #ebebeb;
+  transition: all 0.2s linear;
+}
+
+.teachers__photo-button-left:hover::before {
+  background-image: url("../images/arrow-left-bl.png");
 }
 
 .teachers__photo-button-right {
@@ -1477,12 +1484,14 @@ img {
   bottom: 100px;
   right: -20px;
   background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .teachers__photo-button-right::before {
   content: '';
   display: inline-block;
-  background-image: url(../images/ar.png);
+  background-image: url(../images/arrow-right-wh.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 15px;
@@ -1490,6 +1499,11 @@ img {
   color: #ebebeb;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
+  transition: all 0.2s linear;
+}
+
+.teachers__photo-button-right:hover::before {
+  background-image: url("../images/arrow-right.png");
 }
 
 .teachers__card-text-size {
@@ -1642,6 +1656,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .btn--prev {
@@ -1651,10 +1666,18 @@ img {
   background-image: url("../images/arrow-left.png");
 }
 
+.btn--prev:hover {
+  background-image: url("../images/arrow-left-bl.png");
+}
+
 .btn--next {
   top: 50%;
   right: 0;
   transform: translate(40%, -100%);
+  background-image: url("../images/arrow-right-wh.png");
+}
+
+.btn--next:hover {
   background-image: url("../images/arrow-right.png");
 }
 
@@ -1753,6 +1776,11 @@ img {
   flex-direction: column;
 }
 
+.contact-list__item--contacts a {
+  text-decoration: none;
+  color: #282828;
+}
+
 .contact-list__item .contact-list__item--address {
   width: 233px;
   margin-bottom: 34px;
@@ -1779,11 +1807,13 @@ img {
   text-align: center;
   margin-bottom: 35px;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .btn--left-message:hover {
   -webkit-animation: scale 1s linear alternate infinite;
   animation: scale 1s linear alternate infinite;
+  transition: all 0.5s;
 }
 
 @keyframes scale {
@@ -2839,11 +2869,13 @@ img {
     right: 0;
     -webkit-filter: drop-shadow(-2.071px 7.727px 4px rgba(79, 125, 240, 0.14));
     filter: drop-shadow(-2.071px 7.727px 4px rgba(79, 125, 240, 0.14));
+    transition: all 2s linear;
   }
 
   .components .container:hover::after {
     -webkit-animation: fly-rotate 3s linear;
     animation: fly-rotate 3s linear;
+    transition: all 2s linear;
   }
 
 @-webkit-keyframes fly-rotate {
@@ -3085,6 +3117,11 @@ img {
     font-size: 30px;
     line-height: 1.5;
     margin-bottom: 85px;
+  }
+
+  .btn--next,
+  .btn--prev {
+    display: none;
   }
 
   .post-wrapper {
