@@ -2654,7 +2654,7 @@ img {
   }
 
   .test {
-    background-image: url(../images/icon-sputnik-desk-top.svg), url(../../images/section-4-bg-desk-top.png);
+    background-image: url("../images/icon-sputnik-desk-top.svg"), url("../images/section-4-bg-desk-top.png");
     background-size: 120px 116px, 100% 838px;
     background-position: center top 130px, top;
     padding-top: 260px;
@@ -2774,7 +2774,7 @@ img {
   .guestion__next-two::after {
     content: "";
     display: inline-block;
-    background-image: url(../../images/arrow.png);
+    background-image: url("../images/arrow.png");
     width: 17px;
     height: 12px;
     background-repeat: no-repeat;
@@ -2783,7 +2783,7 @@ img {
   .guestion__prev-two::before {
     content: "";
     display: inline-block;
-    background-image: url(../../images/prew.png);
+    background-image: url("../images/prew.png");
     width: 17px;
     height: 12px;
     background-repeat: no-repeat;
@@ -2831,7 +2831,7 @@ img {
   .components .container::after {
     display: block;
     content: "";
-    background-image: url("../../images/sputnik.svg");
+    background-image: url("../images/sputnik.svg");
     width: 561px;
     height: 563px;
     position: absolute;
