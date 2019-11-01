@@ -792,6 +792,7 @@ img {
   padding-bottom: 10px;
   -webkit-animation: pulse-name 5s infinite;
   animation: pulse-name 5s infinite;
+  text-align: center;
 }
 
 .why-it__partners-list-description {
@@ -800,6 +801,7 @@ img {
   color: #2c2c2c;
   font-family: "HelveticaR";
   margin-bottom: 20px;
+  text-align: center;
 }
 
 @-webkit-keyframes pulse {
