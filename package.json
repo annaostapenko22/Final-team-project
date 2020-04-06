@@ -450,7 +450,7 @@
     "mime-types": "^2.1.22",
     "mimic-response": "^1.0.1",
     "minimatch": "^3.0.4",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "minimist-options": "^3.0.2",
     "mitt": "^1.1.3",
     "mixin-deep": "^1.3.2",
