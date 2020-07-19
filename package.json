@@ -380,7 +380,7 @@
     "js-base64": "^2.5.1",
     "js-levenshtein": "^1.1.6",
     "js-tokens": "^4.0.0",
-    "js-yaml": "^3.12.2",
+    "js-yaml": "^3.13.1",
     "jsbn": "^0.1.1",
     "jsesc": "^2.5.2",
     "json-parse-better-errors": "^1.0.2",
