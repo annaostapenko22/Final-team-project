@@ -693,7 +693,7 @@
     "tweetnacl": "^0.14.5",
     "type": "^1.0.1",
     "typedarray": "^0.0.6",
-    "ua-parser-js": "^0.7.17",
+    "ua-parser-js": "^0.7.24",
     "uglify-js": "^3.4.10",
     "ultron": "^1.1.1",
     "unc-path-regex": "^0.1.2",
