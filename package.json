@@ -402,7 +402,7 @@
     "limiter": "^1.1.4",
     "load-json-file": "^1.1.0",
     "locate-path": "^2.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "lodash.assign": "^4.2.0",
     "lodash.assignin": "^4.2.0",
     "lodash.bind": "^4.2.1",
