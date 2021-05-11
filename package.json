@@ -296,7 +296,7 @@
     "has-values": "^1.0.0",
     "he": "^1.2.0",
     "homedir-polyfill": "^1.0.3",
-    "hosted-git-info": "^2.7.1",
+    "hosted-git-info": "^2.8.9",
     "html-comment-regex": "^1.1.2",
     "html-minifier": "^3.5.21",
     "html-tags": "^3.0.0",
