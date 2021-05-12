@@ -683,7 +683,7 @@
     "to-regex-range": "^2.1.1",
     "toidentifier": "^1.0.0",
     "tough-cookie": "^2.4.3",
-    "trim": "^0.0.1",
+    "trim": "^0.0.3",
     "trim-newlines": "^1.0.0",
     "trim-repeated": "^1.0.0",
     "trim-right": "^1.0.1",
