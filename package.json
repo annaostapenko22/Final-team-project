@@ -536,7 +536,7 @@
     "plur": "^3.1.1",
     "portscanner": "^2.1.1",
     "posix-character-classes": "^0.1.1",
-    "postcss": "^7.0.14",
+    "postcss": "^8.2.10",
     "postcss-html": "^0.36.0",
     "postcss-jsx": "^0.36.1",
     "postcss-less": "^3.1.4",
