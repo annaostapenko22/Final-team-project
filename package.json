@@ -684,7 +684,7 @@
     "toidentifier": "^1.0.0",
     "tough-cookie": "^2.4.3",
     "trim": "^0.0.1",
-    "trim-newlines": "^1.0.0",
+    "trim-newlines": "^3.0.1",
     "trim-repeated": "^1.0.0",
     "trim-right": "^1.0.1",
     "trim-trailing-lines": "^1.1.2",
