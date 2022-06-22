@@ -276,7 +276,7 @@
     "globjoin": "^0.1.4",
     "glogg": "^1.0.2",
     "gonzales-pe": "^4.2.4",
-    "got": "^7.1.0",
+    "got": "^11.8.5",
     "graceful-fs": "^4.1.15",
     "group-css-media-queries": "^1.4.1",
     "gulplog": "^1.0.0",
